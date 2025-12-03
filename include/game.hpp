@@ -1,3 +1,6 @@
+#ifndef GAME_HPP
+#define GAME_HPP
+
 #include <SFML/Graphics.hpp>
 
 class Game {
@@ -24,3 +27,5 @@ private:
     bool mIsMovingLeft;
     bool mIsMovingRight;
 };
+
+#endif // !GAME_HPP
